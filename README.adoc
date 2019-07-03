@@ -2,6 +2,12 @@
 
 === Kubernetes links and tutos
 
+==== Readiness and Liveness Probes
+
 - https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-setting-up-health-checks-with-readiness-and-liveness-probes[Setting up health checks with readiness and liveness probes]
 - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#define-a-liveness-http-request[Define a liveness HTTP request]
 - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/[Cfigure Liveness and Readiness Probe]
+
+==== Deployment strategies
+
+- https://container-solutions.com/kubernetes-deployment-strategies/[Kubernetes deployment strategies]
