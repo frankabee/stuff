@@ -3,6 +3,7 @@
 === Probot
 
 - https://probot.github.io/docs/http/[HTTP routes with Probot]
+- https://probot.github.io/docs/logging/[Logging]
 
 === Kubernetes links and tutos
 
