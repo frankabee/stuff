@@ -16,3 +16,7 @@
 ==== Deployment strategies
 
 - https://container-solutions.com/kubernetes-deployment-strategies/[Kubernetes deployment strategies]
+
+=== HTTP & HTTPS
+
+- https://blog.dnsimple.com/2016/08/https-redirects/[Understand https redirects]
