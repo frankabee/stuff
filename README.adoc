@@ -27,3 +27,9 @@
 - Link to pipeline-syntax: http://your-jenkins/pipeline-syntax/globals#env
 - Link to snippet generator: http://your-jenkins/pipeline-syntax/
 - https://jenkins.io/doc/pipeline/tour/post/[Cleaning up and notifications]
+
+=== Docker
+
+- https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes[Removing images according to a pattern]
+
+1. `$ docker images -a | grep "pattern" | awk '{print $3}' | xargs docker rmi`
