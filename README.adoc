@@ -26,3 +26,4 @@
 
 - Link to pipeline-syntax: http://your-jenkins/pipeline-syntax/globals#env
 - Link to snippet generator: http://your-jenkins/pipeline-syntax/
+- https://jenkins.io/doc/pipeline/tour/post/[Cleaning up an dnotifications]
