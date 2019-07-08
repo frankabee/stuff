@@ -12,7 +12,7 @@
 
 - https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-setting-up-health-checks-with-readiness-and-liveness-probes[Setting up health checks with readiness and liveness probes]
 - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#define-a-liveness-http-request[Define a liveness HTTP request]
-- https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/[Cfigure Liveness and Readiness Probe]
+- https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/[Configure Liveness and Readiness Probe]
 
 ==== Deployment strategies
 
@@ -26,4 +26,4 @@
 
 - Link to pipeline-syntax: http://your-jenkins/pipeline-syntax/globals#env
 - Link to snippet generator: http://your-jenkins/pipeline-syntax/
-- https://jenkins.io/doc/pipeline/tour/post/[Cleaning up an dnotifications]
+- https://jenkins.io/doc/pipeline/tour/post/[Cleaning up and notifications]
