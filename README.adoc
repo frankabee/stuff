@@ -21,3 +21,8 @@
 === HTTP & HTTPS
 
 - https://blog.dnsimple.com/2016/08/https-redirects/[Understand https redirects]
+
+=== Jenkins
+
+- Link to pipeline-syntax: http://your-jenkins/pipeline-syntax/globals#env
+- Link to snippet generator: http://your-jenkins/pipeline-syntax/
