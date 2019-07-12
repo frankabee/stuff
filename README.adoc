@@ -36,6 +36,6 @@
 
 === Gerrit
 
-http://gerrithub.io/[GerritHub]
-https://gerrit.googlesource.com/plugins/github/+/5444a58654cc5ce43a1df48db62e500eb3e0a3a3/README.md[GitHub PlugIn]
-https://github.com/GerritCodeReview/plugins_github[PlugIn to integrate Gerrit Code Review for GitHub]
+- http://gerrithub.io/[GerritHub]
+- https://gerrit.googlesource.com/plugins/github/+/5444a58654cc5ce43a1df48db62e500eb3e0a3a3/README.md[GitHub PlugIn]
+- https://github.com/GerritCodeReview/plugins_github[PlugIn to integrate Gerrit Code Review for GitHub]
