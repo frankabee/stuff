@@ -33,3 +33,9 @@
 - https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes[Removing images according to a pattern]
 
 1. `$ docker images -a | grep "pattern" | awk '{print $3}' | xargs docker rmi`
+
+=== Gerrit
+
+http://gerrithub.io/[GerritHub]
+https://gerrit.googlesource.com/plugins/github/+/5444a58654cc5ce43a1df48db62e500eb3e0a3a3/README.md[GitHub PlugIn]
+https://github.com/GerritCodeReview/plugins_github[PlugIn to integrate Gerrit Code Review for GitHub]
