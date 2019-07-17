@@ -1,0 +1,30 @@
+def checkExampleApp(checkUrl) {
+   stage('check') {
+      node('k8sMinion') {
+         try {
+            env.checkUrl = checkUrl
+            shell  """
+            echo "checking " $checkUrl
+            curl -f $checkUrl
+            """
+         }
+         catch (exc) {
+            echo 'I failed'
+            // send email to healthcheck teams kanal
+            emailext body: checkUrl, subject: 'Enterprise down', to: 'example@teams'
+         }
+      }
+   }
+}
+
+// Trigger healthcheck every 10 Minutes
+def triggers = []
+triggers << cron('H/10 * * * *')
+properties (
+   [
+      pipelineTriggers(triggers)
+   ]
+)
+checkExampleApp("http://exampleapp.prod.de/health/check")
+checkExampleApp("http://exampleapp.stage.de/health/check")
+checkExampleApp("http://exampleapp.develop.de/health/check")
