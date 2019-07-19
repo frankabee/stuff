@@ -8,6 +8,10 @@
 
 === Kubernetes links and tutos
 
+==== Logstash
+
+- https://towardsdatascience.com/the-basics-of-deploying-logstash-pipelines-to-kubernetes-94a470ad34d9[The basics of deploying Logstash pipelines to Kubernetes]
+
 ==== Readiness and Liveness Probes
 
 - https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-setting-up-health-checks-with-readiness-and-liveness-probes[Setting up health checks with readiness and liveness probes]
