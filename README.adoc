@@ -12,6 +12,10 @@
 
 - https://towardsdatascience.com/the-basics-of-deploying-logstash-pipelines-to-kubernetes-94a470ad34d9[The basics of deploying Logstash pipelines to Kubernetes]
 
+==== Elasticsearch
+
+- https://www.elastic.co/guide/en/elasticsearch/reference/6.7/docker.html#docker-cli-run[run elasticsearch:6.7.2]
+
 ==== Readiness and Liveness Probes
 
 - https://cloud.google.com/blog/products/gcp/kubernetes-best-practices-setting-up-health-checks-with-readiness-and-liveness-probes[Setting up health checks with readiness and liveness probes]
