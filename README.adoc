@@ -47,3 +47,7 @@
 - http://gerrithub.io/[GerritHub]
 - https://gerrit.googlesource.com/plugins/github/+/5444a58654cc5ce43a1df48db62e500eb3e0a3a3/README.md[GitHub PlugIn]
 - https://github.com/GerritCodeReview/plugins_github[PlugIn to integrate Gerrit Code Review for GitHub]
+
+=== DevOps Tooling
+
+- https://xebialabs.com/periodic-table-of-devops-tools/[Periodic Table of DevOps Tools]
