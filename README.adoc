@@ -51,3 +51,8 @@
 === DevOps Tooling
 
 - https://xebialabs.com/periodic-table-of-devops-tools/[Periodic Table of DevOps Tools]
+
+=== SCRUM & SAFE
+
+https://www.ivarjacobson.com/publications/blog/preparing-features-pi-planning-just-say-no-waterfall-thinking[PREPARING FEATURES FOR PI PLANNING - JUST SAY NO TO WATERFALL THINKING]
+
