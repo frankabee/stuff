@@ -1,0 +1,22 @@
+== k8s cheatsheet
+
+=== Interaktion mit laufenden Pods
+
+....
+kubectl logs my-pod                                 # Pod-Logdatei ausgeben (stdout)
+kubectl logs my-pod --previous                      # Pod-Logdatei für eine vorherige Instantiierung eines Containers ausgeben (stdout)
+kubectl logs my-pod -c my-container                 # Pod Container-Logdatei ausgeben (stdout, multi-container case)
+kubectl logs my-pod -c my-container --previous      # Pod Container-Logdatei für eine vorherige Instantiierung eines Containers ausgeben (stdout, multi-container case)
+kubectl logs -f my-pod                              # Pod-Logdatei streamen (stdout)
+kubectl logs -f my-pod -c my-container              # Pod Container-Logdatei streamen (stdout, multi-container case)
+kubectl run -i --tty busybox --image=busybox -- sh  # Pod als interaktive Shell ausführen
+kubectl attach my-pod -i                            # An laufenden Container anhängen
+kubectl port-forward my-pod 5000:6000               # Lauscht auf Port 5000 auf dem lokalen Computer und leitet den Port 6000 auf my-pod weiter
+kubectl exec my-pod -- ls /                         # Befehl in vorhandenem Pod ausführen (1 Container)
+kubectl exec my-pod -c my-container -- ls /         # Befehl in vorhandenem Pod ausführen (Mehrere Container)
+kubectl top pod POD_NAME --containers               # Zeigt Metriken für einen bestimmten Pod und seine Container an
+....
+
+=== Links
+
+https://kubernetes.io/de/docs/reference/kubectl/cheatsheet/[official cheatsheet]
