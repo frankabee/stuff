@@ -15,6 +15,7 @@
 ==== Elasticsearch
 
 - https://www.elastic.co/guide/en/elasticsearch/reference/6.7/docker.html#docker-cli-run[run elasticsearch:6.7.2]
+- https://mherman.org/blog/logging-in-kubernetes-with-elasticsearch-Kibana-fluentd/[Logging in Kubernetes with Elasticsearch, Kibana, and Fluentd]
 
 ==== Readiness and Liveness Probes
 
