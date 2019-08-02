@@ -10,8 +10,8 @@
 
 ==== Logging
 
-https://timber.io/blog/collecting-application-logs-on-kubernetes/[Collecting Application Logs On Kubernetes]
-https://kubernetes.io/docs/concepts/cluster-administration/logging/[Logging Architecture]
+- https://timber.io/blog/collecting-application-logs-on-kubernetes/[Collecting Application Logs On Kubernetes]
+- https://kubernetes.io/docs/concepts/cluster-administration/logging/[Logging Architecture]
 
 ==== Logstash
 
