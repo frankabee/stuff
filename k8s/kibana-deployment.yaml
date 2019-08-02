@@ -1,0 +1,57 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: kibana
+spec:
+  selector:
+    matchLabels:
+      run: kibana
+  template:
+    metadata:
+      labels:
+        run: kibana
+    spec:
+      containers:
+      - name: kibana
+        image: docker.elastic.co/kibana/kibana:6.5.4
+        env:
+        - name: SERVER_NAME
+          value: kibana.aflow.cmo.conti.de
+        - name: ELASTICSEARCH_URL
+          value: http://$(ELASTICSEARCH_SERVICE_HOST):$(ELASTICSEARCH_SERVICE_PORT)
+        - name: ELASTICSEARCH_HOSTS
+          value: http://$(ELASTICSEARCH_SERVICE_HOST):$(ELASTICSEARCH_SERVICE_PORT)
+        - name: XPACK_SECURITY_ENABLED
+          value: "true"
+        ports:
+        - containerPort: 5601
+          name: http
+          protocol: TCP
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kibana-ingress
+spec:
+  rules:
+  - host: kibana.exmaple-domain.de
+    http:
+      paths:
+      - backend:
+          serviceName: kibana
+          servicePort: 5601
+        path: /
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kibana
+  labels:
+    service: kibana
+spec:
+  type: NodePort
+  selector:
+    run: kibana
+  ports:
+  - port: 5601
+    targetPort: 5601
