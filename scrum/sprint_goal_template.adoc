@@ -21,8 +21,7 @@ Sprint duration: x days (Mon - Fri & Mon - Wed)
 == Sprint Goals
 
 * The *Sprint Backlog* is a highly visible, real-time picture of the work that the Development Team plans to accomplish during the Sprint, and it belongs solely to the Development Team.
-* During Sprint Planning the Scrum Team also crafts a *Sprint Goal*. The *Sprint Goal* is an objective that will be met within the Sprint through the implementation of the Product Backlog, and it provides guidance to the Development Team on why it is building the Increment.
-* The Sprint Goal should encourage coherent function or functionality.
+* During Sprint Planning the Scrum Team crafts a *Sprint Goal*. The *Sprint Goal* is an objective that will be met within the Sprint through the implementation of the Product Backlog, and it provides guidance to the Development Team on why it is building the Increment.
 * The Sprint Goal, or mission objective, is not repeated over the course of many sprints. Each sprint should have its own unique mission.
 * Setting the Sprint Goal is the Product Owner’s responsibility, but crafting it is a shared responsibility of the Scrum Team, including PO.
 * The Sprint Goal encourages initiative in multiple areas – teamwork, technology, quality, and mindset. However, while improving those areas, make sure that you are creating a potentially releasable increment by the end of the Sprint.
