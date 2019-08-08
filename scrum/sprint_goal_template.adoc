@@ -27,7 +27,10 @@ Sprint duration: x days (Mon - Fri & Mon - Wed)
 * The Sprint Goal encourages initiative in multiple areas – teamwork, technology, quality, and mindset. However, while improving those areas, make sure that you are creating a potentially releasable increment by the end of the Sprint.
 * The Sprint Goal is the prototype for future sprint outcomes. Make it beautiful and attractive.
 
-Source: https://www.luxoft.com/blog/vmoskalenko/7-sprint-goal-patterns-for-building-great-teams-part-one/[7 Sprint Goal patterns for building a great team]
+Sources: 
+
+* https://www.luxoft.com/blog/vmoskalenko/7-sprint-goal-patterns-for-building-great-teams-part-one/[7 Sprint Goal patterns for building a great team]
+* https://www.scrum.org/forum/scrum-forum/6395/sprint-goal-how-define
 
 === *Example 1*: Sprint Goal: Release a Valuable Increment to the Customer within One Sprint
 
