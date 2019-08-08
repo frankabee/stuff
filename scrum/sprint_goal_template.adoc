@@ -1,0 +1,46 @@
+== Timing
+
+2019-xx-xx: Sprint Planning
+
+2019-xx-xx: Sprint Review
+
+Sprint duration: x days (Mon - Fri & Mon - Wed)
+
+== Team Setup
+
+=== Team "Example"
+
+- Andi: x days
+- Jeff: x days
+- Ken: x days
+- Marc: x days
+- Jim: x days
+- Sissi: x days
+- Pippi: x days
+
+== Sprint Goals
+
+* The *Sprint Backlog* is a highly visible, real-time picture of the work that the Development Team plans to accomplish during the Sprint, and it belongs solely to the Development Team.
+* During Sprint Planning the Scrum Team also crafts a *Sprint Goal*. The *Sprint Goal* is an objective that will be met within the Sprint through the implementation of the Product Backlog, and it provides guidance to the Development Team on why it is building the Increment.
+* The Sprint Goal should encourage coherent function or functionality.
+* The Sprint Goal, or mission objective, is not repeated over the course of many sprints. Each sprint should have its own unique mission.
+* Setting the Sprint Goal is the Product Owner’s responsibility, but crafting it is a shared responsibility of the Scrum Team, including PO.
+* The Sprint Goal encourages initiative in multiple areas – teamwork, technology, quality, and mindset. However, while improving those areas, make sure that you are creating a potentially releasable increment by the end of the Sprint.
+* The Sprint Goal is the prototype for future sprint outcomes. Make it beautiful and attractive.
+
+Link to https://www.luxoft.com/blog/vmoskalenko/7-sprint-goal-patterns-for-building-great-teams-part-one/[7 Sprint Goal patterns for building a great team]
+
+=== *Example 1*: Sprint Goal: Release a Valuable Increment to the Customer within One Sprint
+
+* For customer release R75 fix failing tests and merge feature Z to master.
+* For customer release R99 create a test software for the XYZ statemachine concept rework and support testing and anlysing activities.
+* Implement test software for feature C rework with SWCT and merge it to stable.
+
+=== *Example 2*: Sprint Goal: Focus aligned to the customer's most desired outcomes 
+
+* Focus on solving all open bug points for customer's release 55g.
+* Support milestone activities on develop branch, so that SW freeze can take place at xx.xx.
+
+=== Problems and risks
+
+=== Postponed
