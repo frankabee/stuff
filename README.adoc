@@ -60,10 +60,10 @@
 
 === SCRUM & SAFE
 
-https://www.ivarjacobson.com/publications/blog/preparing-features-pi-planning-just-say-no-waterfall-thinking[PREPARING FEATURES FOR PI PLANNING - JUST SAY NO TO WATERFALL THINKING]
-
-https://de.slideshare.net/udowiegaertner/anleitung-zum-ruinieren-eines-scrum-teams[Anleitung zum Ruinieren eine Scrum Teams]
+* https://www.ivarjacobson.com/publications/blog/preparing-features-pi-planning-just-say-no-waterfall-thinking[PREPARING FEATURES FOR PI  PLANNING - JUST SAY NO TO WATERFALL THINKING]
+* https://de.slideshare.net/udowiegaertner/anleitung-zum-ruinieren-eines-scrum-teams[Anleitung zum Ruinieren eine Scrum Teams]
+* https://www.luxoft.com/blog/vmoskalenko/7-sprint-goal-patterns-for-building-great-teams-part-one/[7 sprint goal patterns for building great teams]
 
 === Git
 
-https://jeffkreeftmeijer.com/git-flow/[use git-flow]
+* https://jeffkreeftmeijer.com/git-flow/[use git-flow]
