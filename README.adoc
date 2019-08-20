@@ -5,6 +5,7 @@
 - https://probot.github.io/docs/http/[HTTP routes with Probot]
 - https://probot.github.io/docs/logging/[Logging]
 - https://github.com/probot/probot/issues/779[Issue: Best practice for rate limiting #779]
+- https://github.com/trentm/node-bunyan#stream-type-rotating-file[Log in a rotating file with Bunyan]
 
 === Kubernetes links and tutos
 
