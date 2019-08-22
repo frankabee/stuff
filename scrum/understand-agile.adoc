@@ -1,0 +1,9 @@
+=== Agile Manifesto
+
+==== What is the Agile Manifesto?
+
+https://agilemanifesto.org/[Manifesto for Agile Software Development]
+
+==== Understand the 12 Principles of Agile in 12 Minutes
+
+https://www.youtube.com/watch?v=Z9QbYZh1YXY[What is Agile? by Mark Shead]
