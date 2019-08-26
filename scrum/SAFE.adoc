@@ -1,0 +1,13 @@
+=== https://www.scaledagileframework.com/[SAFE (Scaled Agile Framework)]
+
+==== Videos
+
+* https://www.youtube.com/watch?v=tmJ_mJw8xec[SAFE explained in 5:13 Minutes]
+
+==== Templates
+
+* http://www.agilenotanarchy.com/2018/01/effective-feature-templates-for-safe.html[Effective Feature Templates for SAFe]
+
+==== Important definitions
+
+* https://www.scaledagileframework.com/features-and-capabilities/[Definition of Features and Capabilities]
