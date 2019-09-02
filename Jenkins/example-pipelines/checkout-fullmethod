@@ -1,0 +1,12 @@
+   stage('checkout') {
+      node('linuxDocker') {
+         checkout([
+           $class: 'GitSCM',
+		       gitTool: 'git',
+           branches: scm.branches,
+           doGenerateSubmoduleConfigurations: scm.doGenerateSubmoduleConfigurations,
+           extensions: scm.extensions,
+           userRemoteConfigs: scm.userRemoteConfigs
+         ])
+      }
+   }
