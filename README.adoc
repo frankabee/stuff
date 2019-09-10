@@ -68,3 +68,6 @@
 === Git
 
 * https://jeffkreeftmeijer.com/git-flow/[use git-flow]
+* Very good introduction into Git
+** https://www.theguild.nl/git-the-object-database/[Git - the object database by Rik Tonnard]
+** https://www.theguild.nl/git-putting-the-knowledge-into-practice/[Git - putting the knowledge into practice by Rik Tonnard]
