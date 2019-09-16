@@ -53,6 +53,8 @@
 
 1. `$ docker images -a | grep "pattern" | awk '{print $3}' | xargs docker rmi`
 
+- https://docs.docker.com/config/daemon/systemd/[Configure your docker daemon with systemd]
+
 === Gerrit
 
 - http://gerrithub.io/[GerritHub]
