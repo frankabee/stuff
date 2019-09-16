@@ -29,6 +29,10 @@
 - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#define-a-liveness-http-request[Define a liveness HTTP request]
 - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/[Configure Liveness and Readiness Probe]
 
+==== Backgroundtasks
+
+- https://medium.com/google-cloud/kubernetes-running-background-tasks-with-batch-jobs-56482fbc853[Running Background Tasks With Batch-Jobs]
+
 ==== Deployment strategies
 
 - https://container-solutions.com/kubernetes-deployment-strategies/[Kubernetes deployment strategies]
