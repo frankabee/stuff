@@ -1,0 +1,30 @@
+# example for a k8s cronjob
+# usecase: clean up logfiles on a volume
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: clean-up-log-volume
+spec:
+  # Run cronjob once a day at midnight
+  schedule: "0 0 * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: clean-up-log-volume
+            image: alpine:latest
+            # remove any logfile older than 3+ days
+            args:
+            - /bin/sh
+            - -c
+            - find /log -type f -mtime +3 -exec rm -f {} \;
+            volumeMounts:
+            - name: log-volume
+              mountPath: /log
+              readOnly: false
+          volumes:
+          - name: log-volume
+            persistentVolumeClaim:
+              claimName: log-volume
+          restartPolicy: Never
