@@ -18,6 +18,27 @@ git rebase -s recursive -Xignore-space-at-eol upstream/master
 git config --global -e
 ....
 
+=== configure meld as global merge tool
+....
+# ------------------ M E R G E -------------------------
+[merge]
+        tool = meld
+        conflictstyle = diff3
+[mergetool "meld"]
+        cmd = meld --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output \"$MERGED\" --label \"MERGE (REMOTE BASE MY)\"
+        trustExitCode = false
+[mergetool]
+        # don't ask if we want to skip merge
+        prompt = false
+        # don't create backup *.orig files
+        keepBackup = false
+# ------------------ D I F F -------------------------
+[diff]
+        guitool = meld
+[difftool "meld"]
+        cmd = meld \"$LOCAL\" \"$REMOTE\" --label \"DIFF (ORIGINAL MY)\"
+....
+
 === git add --patch <filename>
 
 Use git add --patch <filename> (or -p for short) to break down your file into "hunks" (portions of the file).
