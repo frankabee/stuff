@@ -1,3 +1,23 @@
+=== git ignore line endings when merging
+
+-s <strategy>, --strategy=<strategy>
+Use the given merge strategy. If there is no -s option git merge-recursive is used instead. This implies --merge.
+
+Because git rebase replays each commit from the working branch on top of the <upstream> branch using the given strategy, using the ours strategy simply discards all patches from the <branch>, which makes little sense.
+
+-X <strategy-option>, --strategy-option=<strategy-option>
+Pass the <strategy-option> through to the merge strategy. This implies --merge and, if no strategy has been specified, -s recursive. Note the reversal of ours and theirs as noted above for the -m option.
+
+....
+git rebase -s recursive -Xignore-space-at-eol upstream/master
+....
+
+=== edit global git config
+
+....
+git config --global -e
+....
+
 === git add --patch <filename>
 
 Use git add --patch <filename> (or -p for short) to break down your file into "hunks" (portions of the file).
