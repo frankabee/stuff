@@ -1,0 +1,13 @@
+# checks out the main branch and the submodules in their defined tree commit
+
+stage('checkout scm') {
+        checkout([
+           $class: 'GitSCM',
+		       gitTool: 'git',
+           branches: scm.branches,
+           doGenerateSubmoduleConfigurations: scm.doGenerateSubmoduleConfigurations,
+           extensions: [[$class: 'SubmoduleOption', disableSubmodules: false, parentCredentials: true, recursiveSubmodules: true, reference: ''
+, timeout: 10, trackingSubmodules: false]],
+           userRemoteConfigs: scm.userRemoteConfigs
+         ])
+    }
